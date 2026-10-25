@@ -134,6 +134,7 @@ export default function Home({ go }) {
           <div className="hero-copy">
             <h1>Join the hamster-powered internet economy</h1>
             <p>Deposit a Squeek into Staking to schedule account power and earn $SQK after Mining activation.</p>
+            <p>TBA</p>
             <div className="hero-actions">
               <a className="gold" href="/mint" onClick={(event) => { event.preventDefault(); go("/mint"); }}>Get test NFTs</a>
               <a className="text-link" href="#live" onClick={(event) => { event.preventDefault(); document.getElementById("live")?.scrollIntoView({ behavior: "smooth" }); }}>

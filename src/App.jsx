@@ -153,6 +153,7 @@ export default function App() {
           <span>Squeekchain public console</span>
           <span>Measurement · Oracle workflow · Ethereum settlement</span>
           <span>Published records only · never inferred</span>
+          <a href="https://x.com/squeekchainx" target="_blank" rel="noreferrer">X</a>
         </footer>
       </div>
       {notice ? <div className="toast" role="status">{notice}</div> : null}
